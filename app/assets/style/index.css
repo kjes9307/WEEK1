@@ -67,7 +67,6 @@ body {
 .subFont {
   font-size: 32px;
   line-height: 48px;
-  font-family: "PingFang TC";
   font-weight: bold;
   display: inline-block;
 }
@@ -76,7 +75,6 @@ body {
   color: #A00404;
   font-size: 24px;
   line-height: 36px;
-  font-family: "SF Pro Text";
   font-weight: bold;
 }
 
@@ -112,11 +110,10 @@ body {
   color: #A00404;
   font-size: 24px;
   line-height: 36px;
-  font-family: "SF Pro Text";
   font-weight: bold;
 }
 
-.profile #name {
+.profile .name {
   margin-top: 16px;
   margin-bottom: 24px;
 }
@@ -134,7 +131,6 @@ body {
   color: #A00404;
   font-size: 24px;
   line-height: 36px;
-  font-family: "SF Pro Text";
   font-weight: bold;
 }
 
@@ -166,7 +162,6 @@ body {
 .skill span {
   font-size: 24px;
   line-height: 36px;
-  font-family: "SF Pro Text";
   font-weight: bold;
 }
 
@@ -198,7 +193,6 @@ body {
   color: #A00404;
   font-size: 24px;
   line-height: 36px;
-  font-family: "SF Pro Text";
   font-weight: bold;
 }
 
@@ -215,7 +209,7 @@ body {
   margin-left: 24px;
   line-height: 36px;
   font-size: 24px;
-  font-weight: Bold;
+  font-weight: bold;
 }
 
 .workExp .li-m3 {
@@ -223,14 +217,14 @@ body {
 }
 
 .workExp .logo {
-  background: url("./Group6.png");
+  background: url("../assets/Group6.png");
   width: 100px;
   height: 100px;
   margin-left: 24px;
 }
 
 .workExp .logo2 {
-  background: url("./Group7.png");
+  background: url("../assets/Group7.png");
   width: 100px;
   height: 100px;
   margin-left: 24px;
@@ -259,7 +253,6 @@ body {
 .contact span {
   font-size: 24px;
   line-height: 36px;
-  font-family: "SF Pro Text";
   font-weight: bold;
 }
 
