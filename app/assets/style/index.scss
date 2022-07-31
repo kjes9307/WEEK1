@@ -13,9 +13,12 @@ $unitLength : 8px;
 $unitLineWidth: 1px ;
 $alphaBetSize : 8px;
 $constant: 0px;
-$logo: url("../assets/Group6.png");
-$logo2: url("../assets/Group7.png");
+$logo: url("../images/Group6.png");
+$logo2: url("../images/Group7.png");
 
+img {
+    vertical-align: middle; 
+}
 // 字體大小
 .mainFont{
     font-size: $alphaBetSize * 10;
@@ -46,7 +49,6 @@ $logo2: url("../assets/Group7.png");
     img{
         width: 324px;
         height: 324px;
-        vertical-align: middle;
         margin: $unitLength*6 $constant;
     }
 }
@@ -99,6 +101,8 @@ $logo2: url("../assets/Group7.png");
     margin-bottom: $unitLength * 8;
     .contentBorder{
         border-top: 1px solid #fff;
+        width: 996px;
+        margin: 0 auto;
     }
     .subTitle{
         padding-top: $unitLength * 3;
@@ -115,10 +119,11 @@ $logo2: url("../assets/Group7.png");
     .itemSet{
         padding-top: $unitLength * 5;
         padding-bottom: $unitLength * 5;
-        padding-left: 492px;
     }
     ul{
         border-left: 1px solid #96A9C4;
+        width: 224px;
+        margin: 0 auto;
     }
     li{
         line-height: $unitLength * 4.5;
@@ -145,29 +150,32 @@ $logo2: url("../assets/Group7.png");
     ul{
         border-left: 1px solid #96A9C4;
     }
+    .h3 {
+        font-size: $alphaBetSize * 3;
+        font-weight: bold;
+    }
     li{
         margin-left: $unitLength * 3;
         line-height: $unitLength * 4.5;
-        font-size: $alphaBetSize * 3;
-        font-weight: bold;
+        
     }
     .li-m3{
         margin-top: $unitLength * 3;
     }
     .logo{
-        background: $logo;
+        // background: $logo;
         width: 100px;
         height: 100px;
         margin-left: $unitLength * 3;
 
     }
-    .logo2{
-        background: $logo2;
-        width: 100px;
-        height: 100px;
-        margin-left: $unitLength * 3;
+    // .logo2{
+    //     background: $logo2;
+    //     width: 100px;
+    //     height: 100px;
+    //     margin-left: $unitLength * 3;
 
-    }
+    // }
     .info{
         margin-left: $unitLength * 3;
         width: 642px;
@@ -179,6 +187,9 @@ $logo2: url("../assets/Group7.png");
     background-color: $bgColor;
     color: white;
     text-align: center;
+    .contentBorder{
+        border-top: 1px solid #fff;
+    }
     .subTitle{
         padding-top: $unitLength * 3;
         padding-bottom: $unitLength * 1;
@@ -198,16 +209,21 @@ $logo2: url("../assets/Group7.png");
         line-height: $unitLength * 4.5;
         font-size: $alphaBetSize * 3;
         margin-left: $unitLength * 3;
+        font-weight: 100;
     }
     .li-m2{
         margin-top: $unitLength * 2;
     }
     img{
-        vertical-align: middle;
         height: 48px;
         width: 48px;
     }
     .img-m3{
         margin-left: $unitLength * 3;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+        
     }
 }
