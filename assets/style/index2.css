@@ -49,6 +49,9 @@ table {
   width: 640px;
   margin: 0 auto; }
 
+img {
+  vertical-align: middle; }
+
 .content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -74,19 +77,13 @@ table {
       line-height: 1.5;
       margin-left: 20px; }
   .content .rightContent {
-    width: 216px;
-    height: 216px;
-    margin-left: 20px;
-    font-size: 28px;
-    padding-top: 92px;
-    text-align: center;
-    border: 1px solid black; }
+    margin-left: 20px; }
 
 .footer {
-  font-size: 16px;
-  line-height: 1.5;
   padding: 48px 0px;
-  text-align: center;
-  border: 1px solid black; }
+  text-align: center; }
+  .footer p {
+    font-size: 16px;
+    line-height: 1.5; }
 
 /*# sourceMappingURL=index2.css.map */
